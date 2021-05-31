@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="button-controls">
+        <span>start game</span>
+    </div>
+    <!--Start Fruit Game-->
+    <div class="info-container">
+        <div class="name">
+            Hello : <span></span>
+        </div>
+        <div class="tries">
+            Wrong Tries : <span>0</span>
+        </div>
+    </div>
+
+    <div class="memory-game-blocks">
+        <div class="game-block" data-fruit = "orange">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/orange.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "orange">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/orange.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "banana">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/banana.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "banana">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/banana.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "greenapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/greenapple.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "greenapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/greenapple.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "lemon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/lemon.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "lemon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/lemon.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "peach">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/peach.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "peach">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/peach.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "pineapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/pineapple.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "pineapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/pineapple.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "redapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/redapple.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "redapple">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/redapple.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "tangerine">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/tangerine.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "tangerine">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/tangerine.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "cherrise">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/cherrise.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "cherrise">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/cherrise.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "watermelon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/watermelon.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "watermelon">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/watermelon.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "watermelonn2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/watermelonn.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "watermelonn2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/watermelonn.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "apple-granny-smith">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/apple-granny-smith.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "apple-granny-smith">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/apple-granny-smith.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "clipart-fruit-food-item">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/clipart-fruit-food-item-7.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "clipart-fruit-food-item">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/clipart-fruit-food-item-7.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "cropped-Pineapple-Blue">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/cropped-Pineapple-Blue.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "cropped-Pineapple-Blue">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/cropped-Pineapple-Blue.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "grap">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/grap.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "grap">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/grap.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "pear">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/pear.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-fruit = "pear">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="images/fruits/pear.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--End Fruit Game-->
+    <script src="learn.js"></script>
+</body>
+</html>
